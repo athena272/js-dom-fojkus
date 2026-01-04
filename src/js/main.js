@@ -1,3 +1,4 @@
+import { setupFocusMusic } from "./ui/audio.js";
 import { applyContext, getContextFromEvent, getInitialContext } from "./ui/context.js";
 import { SELECTORS, qs } from "./ui/dom.js";
 
@@ -16,6 +17,8 @@ function init()
 
     const initialContext = getInitialContext();
     applyContext(initialContext);
+
+    setupFocusMusic();
 }
 
 init();

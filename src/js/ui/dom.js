@@ -4,6 +4,7 @@ export const SELECTORS = {
     banner: ".app__image",
     title: ".app__title",
     contextButtons: ".app__card-button[data-context]",
+    musicToggle: "#toggle-music",
 };
 
 export function qs(selector, scope = document)
