@@ -5,6 +5,10 @@ export const SELECTORS = {
     title: ".app__title",
     contextButtons: ".app__card-button[data-context]",
     musicToggle: "#toggle-music",
+    timer: "#timer",
+    startPauseButton: "#start-pause",
+    startPauseIcon: "#start-pause img",
+    startPauseText: "#start-pause span",
 };
 
 export function qs(selector, scope = document)
