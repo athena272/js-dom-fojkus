@@ -10,11 +10,11 @@ function updateStartPause(timer)
 
     if (timer.isRunning())
     {
-        icon.src = "/images/pause.png";
+        icon.src = "./images/pause.png";
         text.textContent = "Pausar";
     } else
     {
-        icon.src = "/images/play_arrow.png";
+        icon.src = "./images/play_arrow.png";
         text.textContent = "Começar";
     }
 }

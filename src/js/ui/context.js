@@ -2,21 +2,21 @@ import { qs, qsa, SELECTORS } from "./dom.js";
 
 const CONTEXTS = {
     focus: {
-        banner: "/images/foco.png",
+        banner: "./images/foco.png",
         title: `
       Otimize sua produtividade,<br>
       <strong class="app__title-strong">mergulhe no que importa.</strong>
     `,
     },
     "short-break": {
-        banner: "/images/descanso-curto.png",
+        banner: "./images/descanso-curto.png",
         title: `
       Que tal dar uma respirada?
       <strong class="app__title-strong">Faça uma pausa curta!</strong>
     `,
     },
     "long-break": {
-        banner: "/images/descanso-longo.png",
+        banner: "./images/descanso-longo.png",
         title: `
       Hora de voltar à superfície.
       <strong class="app__title-strong">Faça uma pausa longa.</strong>
